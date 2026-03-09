@@ -1,0 +1,72 @@
+header{
+    background-color: crimson;
+    color: white;
+    display:flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    align-items: center;
+
+}
+
+*{
+    margin: 0;
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+    font-size: large;
+    font-weight: 600;
+}
+
+header a:hover{
+    color: black;
+    background-color: rgb(59, 58, 121);
+    transition: all 0.2s ease-in-out;
+}
+
+header h2:hover{
+    color:deepskyblue;
+    background-color:white;
+    transition: all 0.2s ease-in-out;
+}
+
+header ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+button:hover{
+    cursor: pointer;
+
+}
+
+main{
+    padding: 2em;
+    background-color: lightgray;
+    height: 100vh;
+}
+
+section{
+    background-color: white;
+    padding: 2em;
+}
+
+button{
+    background-color: red;
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    color: white;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: black;
+}
+
+section h3, section h4, section button{
+    margin-bottom: 10px;
+}
