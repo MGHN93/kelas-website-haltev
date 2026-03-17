@@ -139,6 +139,23 @@ button:hover {
     width: 100%;
 }
 
+.why-us {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.foto-kiri img{
+    width: 300px;
+}
+
+/* .why-us > div{
+    flex: 1;
+} */
+
+
+
+
+
 /* large screen */
 @media screen and (max-width: 1024px) {
     .product-list-grid {
@@ -177,3 +194,4 @@ button:hover {
         background-color: blue;
     }
 }
+
